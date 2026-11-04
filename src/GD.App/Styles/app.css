@@ -1,0 +1,6 @@
+@import "tailwindcss";
+@source "../**/*.razor";
+@source "../wwwroot/index.html";
+
+#blazor-error-ui { display: none; }
+#blazor-error-ui.show, #blazor-error-ui[style*="block"] { display: block !important; }

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G&amp;D</title>
+    <base href="/" />
+    <link rel="preload" id="webassembly" />
+    <link rel="stylesheet" href="css/app.css" />
+    <link rel="icon" type="image/png" href="favicon.png" />
+    <meta name="theme-color" content="#0f172a" />
+    <link href="manifest.webmanifest" rel="manifest" />
+    <link rel="apple-touch-icon" sizes="512x512" href="icon-512.png" />
+    <link rel="apple-touch-icon" sizes="192x192" href="icon-192.png" />
+    <script type="importmap"></script>
+</head>
+
+<body class="bg-slate-900 text-slate-100">
+    <div id="app" class="flex h-screen items-center justify-center bg-slate-900 text-slate-300">Ładowanie…</div>
+
+    <div id="blazor-error-ui" class="fixed inset-x-0 bottom-0 bg-red-100 p-3 text-red-900">
+        Wystąpił błąd. <a href="." class="reload underline">Odśwież</a>
+        <span class="dismiss float-right cursor-pointer">🗙</span>
+    </div>
+    <script src="_framework/blazor.webassembly#[.{fingerprint}].js"></script>
+    <script>navigator.serviceWorker.register('service-worker.js', { updateViaCache: 'none' });</script>
+</body>
+
+</html>

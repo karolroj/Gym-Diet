@@ -17,3 +17,10 @@ Aplikacja **PWA** zbudowana w **.NET Blazor** z **Tailwind CSS**, łącząca w j
 ## Status
 
 Projekt na wczesnym etapie.
+
+## Uruchomienie
+
+```bash
+npm install && npm run css      # Tailwind -> wwwroot/css/app.css
+dotnet run --project src/GD.App # .NET 10
+```

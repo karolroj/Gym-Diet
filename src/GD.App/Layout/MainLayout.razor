@@ -1,0 +1,11 @@
+@inherits LayoutComponentBase
+<div class="mx-auto flex min-h-screen max-w-xl flex-col">
+    <main class="flex-1 p-4 pb-24">
+        @Body
+    </main>
+    <nav class="fixed inset-x-0 bottom-0 mx-auto flex max-w-xl border-t border-slate-700 bg-slate-800">
+        <NavLink href="" Match="NavLinkMatch.All" class="flex-1 py-3 text-center text-slate-400" ActiveClass="text-emerald-400 font-semibold">🍎 Dieta</NavLink>
+        <NavLink href="trening" class="flex-1 py-3 text-center text-slate-400" ActiveClass="text-emerald-400 font-semibold">🏋️ Trening</NavLink>
+        <NavLink href="podsumowanie" class="flex-1 py-3 text-center text-slate-400" ActiveClass="text-emerald-400 font-semibold">📊 Podsumowanie</NavLink>
+    </nav>
+</div>

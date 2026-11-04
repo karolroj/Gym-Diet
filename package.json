@@ -1,0 +1,12 @@
+{
+  "name": "gd",
+  "private": true,
+  "scripts": {
+    "css": "tailwindcss -i src/GD.App/Styles/app.css -o src/GD.App/wwwroot/css/app.css --minify",
+    "css:watch": "tailwindcss -i src/GD.App/Styles/app.css -o src/GD.App/wwwroot/css/app.css --watch"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.0",
+    "tailwindcss": "^4.1.0"
+  }
+}
